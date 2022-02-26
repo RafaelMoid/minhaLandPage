@@ -1,5 +1,5 @@
 import { useState } from 'react'
-function App() {
+function Main() {
 
   return (
     <div className="App">
@@ -8,4 +8,4 @@ function App() {
   )
 }
 
-export default App
+export default Main;
