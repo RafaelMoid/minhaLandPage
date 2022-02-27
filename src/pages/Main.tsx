@@ -1,11 +1,8 @@
 import { useState } from 'react'
-function Main() {
+import Frontend from '../template/Frontend';
 
-  return (
-    <div className="App">
-      <h1>Teste</h1>
-    </div>
-  )
+function Main() {
+  return <Frontend />
 }
 
 export default Main;
