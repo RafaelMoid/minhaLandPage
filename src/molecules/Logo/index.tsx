@@ -1,5 +1,7 @@
+import LogoMoid from '../../assets/logo.png'
+
 const Logo = () => {
-    return <div>Logo</div>
+    return <img src={LogoMoid} alt=" Logo do Moid " />
 }
 
 export default Logo;
