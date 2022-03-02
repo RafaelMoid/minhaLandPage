@@ -8,4 +8,12 @@ export const Container = styled.button`
     font-size: 14px;
     margin-left: 25px;
     border-radius:5px;
+    box-shadow: 0px 0px 0px 0px #17a4d0;
+    transition: all 0.25s ease-out;
+
+    &:hover {
+        color: #fff;
+        background-color: #17a4d0;
+        box-shadow: 0px 0px 17px -4px #17a4d0;
+    }
 `

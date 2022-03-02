@@ -20,6 +20,8 @@ const globalStyle = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
         background-color:transparent;
         border: none;
+        outline: none;
+        cursor:pointer;
     }
 
     a {
