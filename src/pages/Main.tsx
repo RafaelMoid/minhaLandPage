@@ -2,6 +2,8 @@ import ButtonContact from '../atoms/ButtonContact';
 import Frontend from '../template/Frontend';
 import * as S from './styles';
 
+import MyPhoto from '../assets/minha-foto.svg';
+
 function Main() {
   return (<Frontend>
     
@@ -11,7 +13,9 @@ function Main() {
         <h6>I'm a front-end developer towards fullstack, working hard to be a better man.</h6>
     <ButtonContact/>
       </div>
-      <div>Coluna 2</div>
+      <S.ColumnImage>
+        <img src={MyPhoto} alt="The greather Varela photograph"/>
+      </S.ColumnImage>
     </S.Container>
   </Frontend>)
 }

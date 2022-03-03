@@ -25,3 +25,13 @@ export const Container = styled.div`
         margin-top: 20px;
     }
 `
+
+export const ColumnImage = styled.div`
+    img {
+        display: block;
+        margin: auto;
+        width: 65%;
+        border-radius:35px;
+        box-shadow: 5px 5px 1px rgba(30,37,94,0.1);
+    }
+`
