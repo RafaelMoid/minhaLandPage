@@ -14,9 +14,6 @@ const Menu = () => {
         <S.ItemList>
             <a href="#">Services</a>
         </S.ItemList>
-        <S.ItemList>
-            <a href="#">Contact</a>
-        </S.ItemList>
     </S.MenuList>
 }
 
