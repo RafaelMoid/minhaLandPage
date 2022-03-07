@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+export const Wrapper = styled.div`
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+`
+
 export const Container = styled.div`
     display: flex;
     flex-direction: row;
@@ -30,6 +37,11 @@ export const TextBox = styled.div`
     margin-left: 7%;
 `
 
+export const TextBoxAboutMe = styled.div`
+    margin-left: 7%;
+    margin-top: 20px;
+`
+
 export const ColumnImage = styled.div`
     text-align:right;
     position: relative;
@@ -41,4 +53,29 @@ export const ColumnImage = styled.div`
         border-radius:35px;
         box-shadow: 5px 5px 1px rgba(30,37,94,0.1);
     }
+`
+
+export const AboutMeBox1 = styled.section`
+    background-color:rgba(23,164,208,0.2);
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+`
+
+export const AboutMeBox2 = styled.section`
+    background-color:red;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+`
+
+export const AboutMeBox3 = styled.section`
+    background-color:green;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
 `
