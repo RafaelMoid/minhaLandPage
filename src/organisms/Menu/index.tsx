@@ -1,18 +1,19 @@
 import * as S from "./styles";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
     return <S.MenuList>
         <S.ItemList>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>{" "}
         </S.ItemList>
         <S.ItemList>
-            <a href="#">About me</a>
+            <Link to="/aboutme">About me</Link>
         </S.ItemList>
         <S.ItemList>
-            <a href="#">How it works</a>
+            <Link to="/howitworks">How it works</Link>
         </S.ItemList>
         <S.ItemList>
-            <a href="#">Services</a>
+        <Link to="/services">Services</Link>
         </S.ItemList>
     </S.MenuList>
 }
