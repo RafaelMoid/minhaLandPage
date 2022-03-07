@@ -10,9 +10,6 @@ const Menu = () => {
             <Link to="/aboutme">About me</Link>
         </S.ItemList>
         <S.ItemList>
-            <Link to="/howitworks">How it works</Link>
-        </S.ItemList>
-        <S.ItemList>
         <Link to="/services">Services</Link>
         </S.ItemList>
     </S.MenuList>

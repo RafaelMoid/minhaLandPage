@@ -26,6 +26,10 @@ export const Container = styled.div`
     }
 `
 
+export const TextBox = styled.div`
+    margin-left: 7%;
+`
+
 export const ColumnImage = styled.div`
     text-align:right;
     position: relative;
@@ -33,11 +37,8 @@ export const ColumnImage = styled.div`
     img {
         display: block;
         margin: auto;
-        margin-left: 194px;
         width: 65%;
         border-radius:35px;
         box-shadow: 5px 5px 1px rgba(30,37,94,0.1);
     }
-
-    
 `

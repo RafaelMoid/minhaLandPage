@@ -9,6 +9,7 @@ const globalStyle = createGlobalStyle`
 
     html, body {
         height: 100%;
+        width: 100%;
     }
 
     body {
@@ -29,6 +30,7 @@ const globalStyle = createGlobalStyle`
         text-decoration: none;
         outline: none;
     }
+
 `
 
 export default globalStyle;

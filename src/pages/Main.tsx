@@ -11,11 +11,13 @@ function Main() {
     <Circle1 />
     <Circle2 />
     <S.Container>
-      <div>
-        <h1>creating bridges between art and technology</h1>
-        <h6>I'm a front-end developer towards fullstack, working hard to be a better man.</h6>
-        <ButtonContact/>
-      </div>
+      <S.TextBox>
+        <div>
+          <h1>creating bridges between art and technology</h1>
+          <h6>I'm a front-end developer towards fullstack, working hard to be a better man.</h6>
+          <ButtonContact/>
+        </div>
+      </S.TextBox>
       <S.ColumnImage>
         <img src={MyPhoto} alt="The greather Varela photograph"/>
         

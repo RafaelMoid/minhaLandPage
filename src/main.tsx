@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Main from './pages/Main'
+import AboutMe from './pages/AboutMe'
 import {
   BrowserRouter,
   Routes,
@@ -15,7 +16,9 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Main/>} />
-        <Route path="/teste" element={() => <h1>Teste</h1>} />
+        <Route path="/services" element={<AboutMe/>} />
+        <Route path="/aboutme" element={<AboutMe/>} />
+        <Route path="/contact" element={<AboutMe/>}  />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
